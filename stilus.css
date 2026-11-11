@@ -32,6 +32,10 @@ footer {
     text-align: center;
 }
 
+article {
+    color: blue;
+}
+
 main {
   display: grid;
   gap: 10px;
