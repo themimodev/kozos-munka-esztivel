@@ -1,0 +1,13 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.grid-container {
+display: grid;  
+    grid-template-columns: 1fr 3fr 1fr;   
+}
+
+header {
+    background-image: url("kepek/header.jpg");
+
+}
