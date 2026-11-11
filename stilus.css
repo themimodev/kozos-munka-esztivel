@@ -1,12 +1,12 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
 }
 
 header {
     background-image: url("kepek/header.jpg");
     padding: 50px;
     text-align: center;
-    color: aliceblue;
     font-size: 3em;
 }
 
