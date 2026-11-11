@@ -2,11 +2,6 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.grid-container {
-display: grid;  
-    grid-template-columns: 1fr 3fr 1fr;   
-}
-
 header {
     background-image: url("kepek/header.jpg");
     padding: 50px;
@@ -15,10 +10,3 @@ header {
     font-size: 3em;
 }
 
-header img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    display: block;
-    gap: 5px;
-}
