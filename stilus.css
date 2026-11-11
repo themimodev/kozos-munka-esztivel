@@ -32,6 +32,10 @@ footer {
     text-align: center;
 }
 
+img {
+	max-width: 100%;
+}
+
 main {
   display: grid;
   gap: 10px;
