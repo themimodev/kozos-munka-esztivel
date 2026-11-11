@@ -22,3 +22,72 @@ header img {
     display: block;
     gap: 5px;
 }
+
+
+
+main {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-areas:
+    "h h h"
+    "n n n"
+    "asb ar asj"
+    "f f f";
+}
+
+header {
+  grid-area: h;
+}
+nav {
+  grid-area: n;
+}
+
+article {
+  grid-area: ar;
+}
+
+aside.bal {
+  grid-area: asb;
+}
+aside.jobb {
+  grid-area: asj;
+}
+footer {
+  grid-area: f;
+}
+
+@media screen and (max-width: 800px) {
+    nav ul {
+    grid-template-columns: 1fr;
+  }
+
+  main {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "h"
+      "n"
+      "asb"
+      "ar"
+      "asj"
+      "f";
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  nav ul {
+    grid-template-columns: 1fr;
+  }
+
+  main {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "h"
+      "n"
+      "asb"
+      "ar"
+      "asj"
+      "f";
+  }
+}
