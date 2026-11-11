@@ -9,5 +9,16 @@ display: grid;
 
 header {
     background-image: url("kepek/header.jpg");
+    padding: 50px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 3em;
+}
 
+header img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    gap: 5px;
 }
